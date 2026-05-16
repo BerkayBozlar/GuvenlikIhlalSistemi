@@ -1,11 +1,11 @@
-# 🛡️ Bulut Tabanlı İhlal Tespit Sistemi (AWS Rekognition)
+# Bulut Tabanlı İhlal Tespit Sistemi (AWS Rekognition)
 
 Bu proje, güvenlik kamerası görüntülerini bulut bilişim servisleri ve yapay zeka kullanarak analiz eden, videolardaki nesneleri (insan, araç vb.) tespit ederek olası ihlalleri anlık olarak raporlayan bir web uygulamasıdır. Proje, video üzerinden nesne tanıma ve etiketleme analizi yapma hedefleri doğrultusunda geliştirilmiştir.
 
-## 🚀 Proje Amacı
+## Proje Amacı
 Sisteme yüklenen kısa süreli güvenlik veya gözetim videoları, doğrudan AWS S3 bulut depolama servisine aktarılır. Ardından **AWS Rekognition** (Yapay Zeka ve Görüntü İşleme) API'si tetiklenerek video saniye saniye analiz edilir. Sistem, görüntüde "Person" (İnsan) etiketi yakaladığında ekranda anında kırmızı alarm (İzinsiz Giriş) üretir.
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 Bu sistem, bulut tabanlı video işleme çözümlerini entegre eden çok katmanlı bir mimariye sahiptir:
 * **Backend:** Python & Flask (Web Sunucusu ve API Yönlendirmeleri)
 * **Bulut Depolama:** AWS S3 (Kamera kayıtlarının güvenli depolanması)
@@ -13,7 +13,7 @@ Bu sistem, bulut tabanlı video işleme çözümlerini entegre eden çok katmanl
 * **Frontend:** HTML5, CSS3 (Karanlık tema güvenlik paneli tasarımı)
 * **AWS SDK:** Boto3 (Python ile AWS servisleri arası asenkron iletişim)
 
-## ⚙️ Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 **1. Depoyu Klonlayın:**
 \`\`\`bash
